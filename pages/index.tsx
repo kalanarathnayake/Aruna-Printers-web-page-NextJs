@@ -135,23 +135,23 @@ export default function Example() {
                 Call us - 071-8002631<br />
                 Email us - arunaprint@gmail.com</p>
               <div className="flex items-center justify-center mt-10 gap-x-6">
-                <a
-                  href="#"
-                  className="rounded-md bg-indigo-600 px-3.5 py-1.5 text-base font-semibold leading-7 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                >
+                <a href="https://maps.app.goo.gl/U46gJeQAg7kgdKzB7"
+                  className="rounded-md bg-indigo-600 px-3.5 py-1.5 text-base font-semibold leading-7 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+                  Office Location
                 </a>
-                <a href="#" className="text-base font-semibold leading-7 text-gray-900">
-                  Our Office Location <span aria-hidden="true">→</span>
+                <a href="https://maps.app.goo.gl/U46gJeQAg7kgdKzB7" className="text-base font-semibold leading-7 text-gray-900">
+                  Click here<span aria-hidden="true">→</span>
+
                 </a>
               </div>
               <div className="flex items-center justify-center mt-10 gap-x-6">
                 <a
-                  href="https://maps.app.goo.gl/U46gJeQAg7kgdKzB7"
+                  href="https://maps.app.goo.gl/WjEc5EL5jknarYSH6"
                   className="rounded-md bg-indigo-600 px-3.5 py-1.5 text-base font-semibold leading-7 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                >
+                >Press Location
                 </a>
                 <a href="https://maps.app.goo.gl/WjEc5EL5jknarYSH6" className="text-base font-semibold leading-7 text-gray-900">
-                  Our Press location <span aria-hidden="true">→</span>
+                  Click here<span aria-hidden="true">→</span>
                 </a>
               </div>
             </div>
