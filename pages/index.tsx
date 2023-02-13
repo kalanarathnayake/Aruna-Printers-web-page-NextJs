@@ -41,7 +41,7 @@ export default function Example() {
           </defs>
         </svg>
       </div>
-      
+
       <div className="px-6 pt-6 lg:px-8">
         <nav className="flex items-center justify-between" aria-label="Global">
           <div className="flex lg:flex-1">
@@ -62,6 +62,8 @@ export default function Example() {
               </h1>
               <p className="mt-6 text-lg leading-8 text-gray-600">
               Welcome to Aruna Offset Printers Bandaragama.
+              </p>              <p className="mt-6 text-lg leading-8 text-gray-600">
+              Contact number - 071-8002631
               </p>
             </div>
           </div>
