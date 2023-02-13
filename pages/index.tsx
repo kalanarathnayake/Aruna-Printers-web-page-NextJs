@@ -13,7 +13,7 @@ export default function Example() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <div className="isolate bg-white">
+    <div className="bg-white isolate">
       <div className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]">
         <svg
           className="relative left-[calc(50%-11rem)] -z-10 h-[21.1875rem] max-w-none -translate-x-1/2 rotate-[30deg] sm:left-[calc(50%-30rem)] sm:h-[42.375rem]"
@@ -55,7 +55,7 @@ export default function Example() {
               onClick={() => setMobileMenuOpen(true)}
             >
               <span className="sr-only">Open main menu</span>
-              <Bars3Icon className="h-6 w-6" aria-hidden="true" />
+              <Bars3Icon className="w-6 h-6" aria-hidden="true" />
             </button>
           </div>
           <div className="hidden lg:flex lg:gap-x-12">
@@ -72,7 +72,7 @@ export default function Example() {
           </div>
         </nav>
         <Dialog as="div" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
-          <Dialog.Panel className="fixed inset-0 z-10 overflow-y-auto bg-white px-6 py-6 lg:hidden">
+          <Dialog.Panel className="fixed inset-0 z-10 px-6 py-6 overflow-y-auto bg-white lg:hidden">
             <div className="flex items-center justify-between">
               <a href="#" className="-m-1.5 p-1.5">
                 <span className="sr-only">Aruna Offset Printers</span>
@@ -84,17 +84,17 @@ export default function Example() {
                 onClick={() => setMobileMenuOpen(false)}
               >
                 <span className="sr-only">Close menu</span>
-                <XMarkIcon className="h-6 w-6" aria-hidden="true" />
+                <XMarkIcon className="w-6 h-6" aria-hidden="true" />
               </button>
             </div>
-            <div className="mt-6 flow-root">
+            <div className="flow-root mt-6">
               <div className="-my-6 divide-y divide-gray-500/10">
-                <div className="space-y-2 py-6">
+                <div className="py-6 space-y-2">
                   {navigation.map((item) => (
                     <a
                       key={item.name}
                       href={item.href}
-                      className="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10"
+                      className="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-400/10"
                     >
                       {item.name}
                     </a>
@@ -115,9 +115,9 @@ export default function Example() {
       </div>
       <main>
         <div className="relative px-6 lg:px-8">
-          <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+          <div className="max-w-2xl py-32 mx-auto sm:py-48 lg:py-56">
             <div className="hidden sm:mb-8 sm:flex sm:justify-center">
-              <div className="relative rounded-full py-1 px-3 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+              <div className="relative px-3 py-1 text-sm leading-6 text-gray-600 rounded-full ring-1 ring-gray-900/10 hover:ring-gray-900/20">
                 Announcing our Website is Under devlopment.{' '}
                 <a href="#" className="font-semibold text-indigo-600">
                   <span className="absolute inset-0" aria-hidden="true" />
@@ -134,15 +134,24 @@ export default function Example() {
               <p>
                 Call us - 071-8002631<br />
                 Email us - arunaprint@gmail.com</p>
-              <div className="mt-10 flex items-center justify-center gap-x-6">
+              <div className="flex items-center justify-center mt-10 gap-x-6">
                 <a
-                  href="#" 
+                  href="#"
                   className="rounded-md bg-indigo-600 px-3.5 py-1.5 text-base font-semibold leading-7 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                 >
-                  ___
                 </a>
                 <a href="#" className="text-base font-semibold leading-7 text-gray-900">
-                  Learn more <span aria-hidden="true">→</span>
+                  Our Office Location <span aria-hidden="true">→</span>
+                </a>
+              </div>
+              <div className="flex items-center justify-center mt-10 gap-x-6">
+                <a
+                  href="https://maps.app.goo.gl/U46gJeQAg7kgdKzB7"
+                  className="rounded-md bg-indigo-600 px-3.5 py-1.5 text-base font-semibold leading-7 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                >
+                </a>
+                <a href="https://maps.app.goo.gl/WjEc5EL5jknarYSH6" className="text-base font-semibold leading-7 text-gray-900">
+                  Our Press location <span aria-hidden="true">→</span>
                 </a>
               </div>
             </div>
@@ -219,9 +228,9 @@ export default function Example() {
 //     </div>
 //   )
 // }
-// <div className="bg-white py-24 sm:py-32">
-//       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-//         <div className="mx-auto max-w-2xl lg:text-center">
+// <div className="py-24 bg-white sm:py-32">
+//       <div className="px-6 mx-auto max-w-7xl lg:px-8">
+//         <div className="max-w-2xl mx-auto lg:text-center">
 //           <h2 className="text-lg font-semibold leading-8 tracking-tight text-indigo-600">Deploy faster</h2>
 //           <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
 //             Everything you need to deploy your app
@@ -231,13 +240,13 @@ export default function Example() {
 //             pulvinar et feugiat blandit at. In mi viverra elit nunc.
 //           </p>
 //         </div>
-//         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
+//         <div className="max-w-2xl mx-auto mt-16 sm:mt-20 lg:mt-24 lg:max-w-4xl">
 //           <dl className="grid max-w-xl grid-cols-1 gap-y-10 gap-x-8 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
 //             {features.map((feature) => (
 //               <div key={feature.name} className="relative pl-16">
 //                 <dt className="text-base font-semibold leading-7 text-gray-900">
-//                   <div className="absolute top-0 left-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
-//                     <feature.icon className="h-6 w-6 text-white" aria-hidden="true" />
+//                   <div className="absolute top-0 left-0 flex items-center justify-center w-10 h-10 bg-indigo-600 rounded-lg">
+//                     <feature.icon className="w-6 h-6 text-white" aria-hidden="true" />
 //                   </div>
 //                   {feature.name}
 //                 </dt>
