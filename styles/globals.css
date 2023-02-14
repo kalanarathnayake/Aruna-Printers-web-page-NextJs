@@ -26,6 +26,15 @@ body {
   /* animation: gradient 10s ease infinite; */
 }
 
+.topic{
+  background: linear-gradient(-45deg , #ee7752, #e73c7e, #23a6d5, #23d5ab, #0703e4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 400% 400%;
+  animation: gradient 10s linear infinite;
+
+}
+
 @keyframes gradient {
   0% {
     background-position: 0% 50%;
