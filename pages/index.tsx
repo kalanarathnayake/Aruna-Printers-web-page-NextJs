@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
+import Head from 'next/head'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
@@ -14,6 +15,10 @@ export default function Example() {
 
   return (
     <div className="bg-white isolate">
+      <Head>
+        <title>Aruna Printers</title>
+        <link rel="icon" href="https://cdn.discordapp.com/attachments/673195908850253834/1075109582059356211/favicon.ico" />
+      </Head>
       <div className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]">
         <svg
           className="relative left-[calc(50%-11rem)] -z-10 h-[21.1875rem] max-w-none -translate-x-1/2 rotate-[30deg] sm:left-[calc(50%-30rem)] sm:h-[42.375rem]"
@@ -45,7 +50,7 @@ export default function Example() {
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Aruna Offset Printers</span>
-              <img className="h-14" src="https://media.discordapp.net/attachments/673195908850253834/1074732767214043166/logo.png" alt="" />
+              <img className="h-14" src="https://media.discordapp.net/attachments/673195908850253834/1074732767214043166/logo.png" alt="" ></img>
             </a>
           </div>
           <div className="flex lg:hidden">
