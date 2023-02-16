@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import Head from 'next/head'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import PhotoBooth from '@/components/photoBooth'
 
 const navigation = [
   { name: 'Product', href: '#' },
@@ -188,6 +189,12 @@ export default function Example() {
           </div>
         </div>
       </main>
+      <div>
+        <div>
+          <PhotoBooth/>
+        </div>
+
+      </div>
     </div>
   )
 }
