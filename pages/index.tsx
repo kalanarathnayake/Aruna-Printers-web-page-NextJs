@@ -121,7 +121,7 @@ export default function Example() {
       </div>
       <main>
         <div className="relative px-6 lg:px-8">
-          <div className="max-w-2xl py-32 mx-auto sm:py-48 lg:py-56">
+          <div className="max-w-2xl py-10 mx-auto sm:py-48 lg:py-56">
             <div className="hidden sm:mb-8 sm:flex sm:justify-center">
               <div className="relative px-3 py-1 text-sm leading-6 text-gray-600 rounded-full ring-1 ring-gray-900/10 hover:ring-gray-900/20">
                 Announcing our Website is Under devlopment.{' '}
@@ -193,7 +193,6 @@ export default function Example() {
         <div>
           <PhotoBooth/>
         </div>
-
       </div>
     </div>
   )

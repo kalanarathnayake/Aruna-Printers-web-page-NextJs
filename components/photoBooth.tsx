@@ -10,7 +10,7 @@ import image6 from "../public/img6.jpg";
 const PhotoBooth = () => {
     return (
         <div className="mb-28">
-            <div className="mx-auto text-3xl font-semibold font-extrabold text-center lg:pt-1 lg:px-32">
+            <div className="mx-auto text-3xl font-semibold font-extrabold text-center lg:pt-1 lg:px-32 md:pb-4">
                 <p>Gallary</p>      
             </div>
             <div className="container px-5 py-2 mx-auto lg:pt-24 lg:px-32">
