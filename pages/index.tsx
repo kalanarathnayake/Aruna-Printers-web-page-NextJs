@@ -3,6 +3,7 @@ import { Dialog } from '@headlessui/react'
 import Head from 'next/head'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import PhotoBooth from '@/components/photoBooth'
+import SinglePhotoBooth from '@/components/singlePhoto'
 
 const navigation = [
   { name: 'Product', href: '#' },
@@ -192,6 +193,8 @@ export default function Example() {
       <div>
         <div>
           <PhotoBooth/>
+          <br/>
+          <SinglePhotoBooth/>
         </div>
       </div>
     </div>

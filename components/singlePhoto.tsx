@@ -7,7 +7,7 @@ import image4 from "../public/img4.jpg";
 import image5 from "../public/img5.jpg";
 import image6 from "../public/img6.jpg";
 
-const PhotoBooth = () => {
+const SinglePhotoBooth = () => {
     return (
         <div className="mb-28">
             <div className="mx-auto text-3xl font-semibold text-center lg:pt-1 lg:px-32 md:pb-4">
@@ -70,4 +70,4 @@ const PhotoBooth = () => {
     );
 };
 
-export default PhotoBooth;
+export default SinglePhotoBooth;
