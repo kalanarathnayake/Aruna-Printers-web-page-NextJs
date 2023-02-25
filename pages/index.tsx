@@ -118,7 +118,7 @@ export default function Example() {
               </div>
             </div>
           </Dialog.Panel>
-        </Dialog>
+        </Dialog> 
       </div>
       <main>
         <div className="relative px-6 lg:px-8">
