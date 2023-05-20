@@ -4,6 +4,7 @@ import Head from 'next/head'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import PhotoBooth from '@/components/photoBooth'
 import SinglePhotoBooth from '@/components/singlePhoto'
+import FooterBar from '@/components/footer.component'
 
 const navigation = [
   { name: 'Product', href: '#' },
@@ -189,12 +190,12 @@ export default function Example() {
           </div>
         </div>
       </main>
-      <div>
-        <div>
-          <SinglePhotoBooth />
-          <PhotoBooth />
-        </div>
+      <div className='pb-20'>
+        <SinglePhotoBooth />
+        <PhotoBooth />
       </div>
+      <FooterBar />
+
     </div>
   )
 }
