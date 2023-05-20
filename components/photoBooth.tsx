@@ -9,11 +9,14 @@ import image6 from "../public/img6.jpg";
 
 const PhotoBooth = () => {
     return (
-        <div className="mb-28">
-            <div className="mx-auto text-3xl font-semibold text-center lg:pt-1 lg:px-32 md:pb-4">
+        <div className="">
+            <div className="mx-auto font-serif text-3xl font-semibold text-center lg:pt-1 lg:px-32 md:pb-1">
                 <p>Gallary</p>
             </div>
-            <div className="container px-5 py-2 mx-auto lg:pt-24 lg:px-32">
+            <div className="">
+                <hr className="py-2" />
+            </div>
+            <div className="container px-5 mx-auto lg:px-32">
                 <div className="flex flex-wrap -m-1 md:-m-2">
                     <div className="">
                         <p className=""></p>
@@ -34,10 +37,10 @@ const PhotoBooth = () => {
                             />
                         </div>
                         <div className="w-full p-1 md:p-2">
-                            <Image
+                            <img
                                 alt="gallery"
                                 className="block object-cover object-center w-full h-full rounded-lg"
-                                src={image3}
+                                src={"https://d1wbcovc1jzt1a.cloudfront.net/printable/images/product_icon/Lunch_Box_150_x_100_x_45_Gnereic_Food_Design_0178.gif"}
                             />
                         </div>
                     </div>
