@@ -2,14 +2,13 @@ import Image from "next/image";
 
 import image1 from "../public/img1.webp";
 import image2 from "../public/img2.jpg";
-import image3 from "../public/img3.jpg";
 import image4 from "../public/img4.jpg";
 import image5 from "../public/img5.jpg";
 import image6 from "../public/img6.jpg";
 
 const PhotoBooth = () => {
     return (
-        <div className="">
+        <div className="container mx-auto">
             <div className="mx-auto font-serif text-3xl font-semibold text-center lg:pt-1 lg:px-32 md:pb-1">
                 <p>Gallary</p>
             </div>
