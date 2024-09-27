@@ -20,7 +20,7 @@ export default function Example() {
     <div className="bg-white isolate">
       <Head>
         <title>Aruna Printers</title>
-        <link rel="icon" href="https://cdn.discordapp.com/attachments/673195908850253834/1075109582059356211/favicon.ico" />
+        <link rel="icon" href="https://icons.iconarchive.com/icons/twitter/twemoji-alphabet/256/Letter-A-icon.png" />
       </Head>
       <div className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]">
         <svg
@@ -53,7 +53,6 @@ export default function Example() {
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Aruna Offset Printers</span>
-              <img className="h-14" src="https://media.discordapp.net/attachments/673195908850253834/1074732767214043166/logo.png" alt="" ></img>
             </a>
           </div>
           <div className="flex lg:hidden">
