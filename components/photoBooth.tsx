@@ -10,57 +10,57 @@ const PhotoBooth = () => {
     return (
         <div className="container mx-auto">
             <div className="mx-auto font-serif text-3xl font-semibold text-center lg:pt-1 lg:px-32 md:pb-1">
-                <p>Gallary</p>
+                <p>Gallery</p>
             </div>
             <div className="">
                 <hr className="py-2" />
             </div>
             <div className="container px-5 mx-auto lg:px-32">
                 <div className="flex flex-wrap -m-1 md:-m-2">
-                    <div className="">
-                        <p className=""></p>
-                    </div>
                     <div className="flex flex-wrap w-1/2">
                         <div className="w-1/2 p-1 md:p-2">
                             <Image
-                                alt="gallery"
+                                alt="First image description"
                                 className="block object-cover object-center w-full h-full rounded-lg"
                                 src={image1}
                             />
                         </div>
                         <div className="w-1/2 p-1 md:p-2">
                             <Image
-                                alt="gallery"
-                                className="block object-cover rounded-lg object-centfw-full"
+                                alt="Second image description"
+                                className="block object-cover object-center w-full h-full rounded-lg"
                                 src={image2}
                             />
                         </div>
                         <div className="w-full p-1 md:p-2">
-                            <img
-                                alt="gallery"
+                            <Image
+                                alt="Lunch Box design GIF"
                                 className="block object-cover object-center w-full h-full rounded-lg"
-                                src={"https://d1wbcovc1jzt1a.cloudfront.net/printable/images/product_icon/Lunch_Box_150_x_100_x_45_Gnereic_Food_Design_0178.gif"}
+                                src={"https://media.istockphoto.com/id/519913201/photo/printing-at-high-speed.jpg?s=612x612&w=0&k=20&c=HTA2-lBM-5AM6YwiCfilUFmqziyYSDNd4MVDYD17Ncw="}
+                                unoptimized
+                                width={500}
+                                height={500}
                             />
                         </div>
                     </div>
                     <div className="flex flex-wrap w-1/2">
                         <div className="w-full p-1 md:p-2">
                             <Image
-                                alt="gallery"
+                                alt="Fourth image description"
                                 className="block object-cover object-center w-full h-full rounded-lg"
                                 src={image4}
                             />
                         </div>
                         <div className="w-1/2 p-1 md:p-2">
                             <Image
-                                alt="gallery"
+                                alt="Fifth image description"
                                 className="block object-cover object-center w-full h-full rounded-lg"
                                 src={image5}
                             />
                         </div>
                         <div className="w-1/2 p-1 md:p-2">
                             <Image
-                                alt="gallery"
+                                alt="Sixth image description"
                                 className="block object-cover object-center w-full h-full rounded-lg"
                                 src={image6}
                             />

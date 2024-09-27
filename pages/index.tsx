@@ -124,7 +124,7 @@ export default function Example() {
       <main>
         <div className="relative px-6 lg:px-8">
           <div className="max-w-2xl py-10 mx-auto sm:py-20 ">
-            <div className="hidden sm:mb-8 sm:flex sm:justify-center">
+            {/* <div className="hidden sm:mb-8 sm:flex sm:justify-center">
               <div className="relative px-3 py-1 text-sm leading-6 text-gray-600 rounded-full ring-1 ring-gray-900/10 hover:ring-gray-900/20">
                 Announcing our Website is Under devlopment.{' '}
                 <a href="https://media.discordapp.net/attachments/673195908850253834/1074732767214043166/logo.png" className="font-semibold text-indigo-600">
@@ -132,7 +132,7 @@ export default function Example() {
                   Read more <span aria-hidden="true">&rarr;</span>
                 </a>
               </div>
-            </div>
+            </div> */}
             <div className="text-center">
               <h1 className="text-4xl font-bold tracking-tight text-gray-900 drop-shadow-lg topic sm:text-6xl">
                 Aruna Offset Printers</h1>
@@ -153,11 +153,11 @@ export default function Example() {
                 </a>
               </div>
               <div className="flex items-center justify-center mt-10 gap-x-6">
-                <a target="_blank" rel="noopener noreferrer" href="https://maps.app.goo.gl/WjEc5EL5jknarYSH6"
+                <a target="_blank" rel="noopener noreferrer" href="https://maps.app.goo.gl/nxWjxiYLeCALTDXx8"
                   className=" rounded-md bg-indigo-600 px-3.5 py-1.5 text-base font-semibold leading-7 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                 >Press Location
                 </a>
-                <a target="_blank" rel="noopener noreferrer" href="https://maps.app.goo.gl/WjEc5EL5jknarYSH6" className="text-base font-semibold leading-7 text-gray-900 topic">
+                <a target="_blank" rel="noopener noreferrer" href="https://maps.app.goo.gl/nxWjxiYLeCALTDXx8" className="text-base font-semibold leading-7 text-gray-900 topic">
                   Click here<span aria-hidden="true">→</span>
                 </a>
               </div>
