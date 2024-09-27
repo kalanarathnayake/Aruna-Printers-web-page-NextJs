@@ -139,8 +139,8 @@ export default function Example() {
                 Welcome to Aruna Offset Printers Bandaragama. <hr />
               </p>
               <p>
-                <span className='text-lg font-extrabold uppercase'>Call us</span> <br />  Aruna Rathnayake : <span className='text-lg font-extrabold uppercase'>071-800 26 31</span> <br />
-                Kalana Rathnayake: <span className='text-lg font-extrabold uppercase'>077-15 56 157</span> <br />
+                <span className='text-lg font-extrabold uppercase'>Call us</span> <br /> <span className='text-lg font-extrabold uppercase'> Aruna Rathnayake : 071-800 26 31</span> <br />
+                <span className='text-lg font-extrabold uppercase'>Kalana Rathnayake : 077-15 56 157</span> <br />
                 Email us - arunaprint@yahoo.com / kalanagayanga8@gmail.com</p>
               <div className="flex items-center justify-center mt-10 gap-x-6">
                 <a target="_blank" rel="noopener noreferrer" href="https://maps.app.goo.gl/U46gJeQAg7kgdKzB7"
