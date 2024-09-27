@@ -17,7 +17,7 @@ export default function Example() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <div className="bg-white isolate">
+    <div className="bg-white isolate mb-5">
       <Head>
         <title>Aruna Printers</title>
         <link rel="icon" href="https://icons.iconarchive.com/icons/twitter/twemoji-alphabet/256/Letter-A-icon.png" />
