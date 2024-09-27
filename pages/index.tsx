@@ -135,12 +135,13 @@ export default function Example() {
             <div className="text-center">
               <h1 className="text-4xl font-bold tracking-tight text-gray-900 drop-shadow-lg topic sm:text-6xl">
                 Aruna Offset Printers</h1>
-              <p className="mt-6 text-lg leading-8 text-gray-600 uppercase">
+              <p className="mt-6 leading-8 text-gray-600 uppercase text-lg font-extrabold">
                 Welcome to Aruna Offset Printers Bandaragama. <hr />
               </p>
               <p>
-                Call us - 071-8002631<br />
-                Email us - arunaprint@yahoo.com</p>
+                <span className='text-lg font-extrabold uppercase'>Call us</span> <br />  Aruna Rathnayake : <span className='text-lg font-extrabold uppercase'>071-800 26 31</span> <br />
+                Kalana Rathnayake: <span className='text-lg font-extrabold uppercase'>077-15 56 157</span> <br />
+                Email us - arunaprint@yahoo.com / kalanagayanga8@gmail.com</p>
               <div className="flex items-center justify-center mt-10 gap-x-6">
                 <a target="_blank" rel="noopener noreferrer" href="https://maps.app.goo.gl/U46gJeQAg7kgdKzB7"
                   className="rounded-md bg-indigo-600 px-3.5 py-1.5 text-base font-semibold leading-7 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
